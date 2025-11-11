@@ -77,10 +77,12 @@ python app.py
 ```bash
 precision-agriculture-using-machine-learning/
 │
+├── README.md
 ├── app.py                    # Main Flask app
 ├── requirements.txt          # Dependencies
 ├── .gitignore
 ├── config.py                 # Contains your API key
+├── crop_rec.zip              # crop recommendation dataset
 ├── Data/                     # Fertilizer data (CSV)
 ├── models/                   # ML & DL model files (.pkl, .pth)
 ├── static/                   # CSS, JS, and images
