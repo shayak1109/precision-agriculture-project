@@ -83,6 +83,7 @@ precision-agriculture-using-machine-learning/
 ├── .gitignore
 ├── config.py                 # Contains your API key
 ├── crop_rec.zip              # crop recommendation dataset
+├── models.zip
 ├── Data/                     # Fertilizer data (CSV)
 ├── models/                   # ML & DL model files (.pkl, .pth)
 ├── static/                   # CSS, JS, and images
