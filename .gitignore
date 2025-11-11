@@ -1,0 +1,47 @@
+# -----------------------------
+# Python / Flask project ignore
+# -----------------------------
+
+# Virtual environments
+venv/
+myenv/
+env/
+ENV/
+
+# Python cache and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.egg-info/
+build/
+dist/
+
+# SQLite database files
+*.db
+*.sqlite3
+
+# Model files (large binaries)
+models/*.pkl
+models/*.pth
+
+# Environment / config files (don’t upload secrets)
+config.py
+.env
+.env.*
+
+# IDE / OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# PyTorch checkpoints
+checkpoints/
+runs/
+
+# Temporary / test folders
+tmp/
+temp/
