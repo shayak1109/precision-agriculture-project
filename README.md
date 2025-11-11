@@ -58,4 +58,74 @@ myenv\Scripts\activate        # (Windows)
 # or
 source myenv/bin/activate     # (Linux/Mac)
 ```
+### 3️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
 
+```
+### 4️⃣ Add your OpenWeatherMap API key
+Create a *config.py* file in the root directory and add:
+```bash
+weather_api_key = "API_KEY"
+```
+### 5️⃣ Run the Flask app
+```bash
+python app.py
+```
+
+## 🧩 Folder Structure
+```bash
+precision-agriculture-using-machine-learning/
+│
+├── app.py                    # Main Flask app
+├── requirements.txt          # Dependencies
+├── .gitignore
+├── config.py                 # Contains your API key
+├── Data/                     # Fertilizer data (CSV)
+├── models/                   # ML & DL model files (.pkl, .pth)
+├── static/                   # CSS, JS, and images
+├── templates/                # HTML files
+├── utils/                    # Helper Python modules
+└── database.db               # Auto-created SQLite DB
+```
+
+## 🧪 Features Demonstration
+
+🌱 Crop Recommendation
+
+- Inputs: N, P, K, pH, temperature, humidity, rainfall, and location.
+
+- Output: Recommended crop suitable for the conditions.
+
+🌾 Fertilizer Recommendation
+
+- Inputs: Crop name, N, P, K values.
+
+- Output: Suggests fertilizer corrections and organic alternatives.
+
+🍃 Disease Detection
+
+- Inputs: Image of a crop leaf (JPG/PNG).
+
+- Output: Detects disease and suggests treatment measures.
+
+## 📈 Results Summary
+
+| Algorithm           | Accuracy |
+| ------------------- | -------- |
+| Decision Tree       | 90%      |
+| Logistic Regression | 94.3%    |
+| SVM                 | 97%      |
+| Random Forest       | **99%**  |
+| ResNet-9 (DL model) | 89%      |
+
+## 👨‍💻 Contributors
+
+**Guide:** Dr. Veena Devi S.V., Associate Professor, Dept. of ECE, RVCE
+
+| Name               | Role                              |
+| ------------------ | --------------------------------- |
+| **Shayak Bose**    | Frontend & Flask Integration      |
+| **Shubh Bafna**    | Backend, ML Integration           |
+| **Siddhant Sinha** | Database, Flask Authentication    |
+| **Yash Naik**      | DL Model Training & Documentation |
