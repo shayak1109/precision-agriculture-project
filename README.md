@@ -27,7 +27,6 @@ Developed as part of the **B.E. Minor Project** at **RV College of Engineering (
 | **Machine Learning** | scikit-learn, NumPy, Pandas |
 | **Deep Learning** | PyTorch, TorchVision |
 | **APIs** | OpenWeatherMap API (for real-time weather) |
-| **Hosting** | Flask |
 
 ---
 
