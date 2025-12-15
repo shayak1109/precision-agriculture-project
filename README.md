@@ -125,9 +125,9 @@ precision-agriculture-using-machine-learning/
 
 **Guide:** Dr. Veena Devi S.V., Associate Professor, Dept. of ECE, RVCE
 
-| Name               | Role                              |
-| ------------------ | --------------------------------- |
-| **Shayak Bose**    | Frontend & Flask Integration      |
-| **Shubh Bafna**    | Backend, ML Integration           |
-| **Siddhant Sinha** | Database, Flask Authentication    |
-| **Yash Naik**      | DL Model Training & Documentation |
+| Name               | Role                                        |
+| ------------------ | ------------------------------------------- |
+| **Shayak Bose**    | Frontend, Flask Integration, Documentation  |
+| **Shubh Bafna**    | Backend, ML Integration                     |
+| **Siddhant Sinha** | Database, Flask Authentication              |
+| **Yash Naik**      | DL Model Training & Documentation           |
