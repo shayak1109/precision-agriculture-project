@@ -118,7 +118,7 @@ precision-agriculture-using-machine-learning/
 | Decision Tree       | 90%      |
 | Logistic Regression | 94.3%    |
 | SVM                 | 97%      |
-| Random Forest       | **99%**  |
+| Random Forest       | ~97-99%  |
 | ResNet-9 (DL model) | 89%      |
 
 ## 👨‍💻 Contributors
